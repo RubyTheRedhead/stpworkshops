@@ -41,6 +41,15 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name=".gitignore" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="1" column="12" selection-start="18" selection-end="18" vertical-scroll-proportion="0.045180723" vertical-offset="0" max-vertical-offset="332">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="app.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app.js">
           <provider selected="true" editor-type-id="text-editor">
@@ -68,10 +77,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="base.js" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="base.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/infrastructure/base.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="20" column="6" selection-start="814" selection-end="814" vertical-scroll-proportion="0.84033614" vertical-offset="0" max-vertical-offset="420">
+            <state line="20" column="6" selection-start="814" selection-end="814" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="420">
               <folding />
             </state>
           </provider>
@@ -114,6 +123,7 @@
         <option value="$PROJECT_DIR$/infrastructure/heroku/prod.js" />
         <option value="$PROJECT_DIR$/infrastructure/heroku/base.js" />
         <option value="$PROJECT_DIR$/infrastructure/base.js" />
+        <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
   </component>
@@ -390,13 +400,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/routes.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="57" column="2" selection-start="2235" selection-end="2235" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="960">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/server.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="8" column="3" selection-start="317" selection-end="317" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="210">
@@ -450,7 +453,21 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/infrastructure/base.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="6" selection-start="814" selection-end="814" vertical-scroll-proportion="0.84033614" vertical-offset="0" max-vertical-offset="420">
+        <state line="20" column="6" selection-start="814" selection-end="814" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="420">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/routes.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="57" column="2" selection-start="2235" selection-end="2235" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="960">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="1" column="12" selection-start="18" selection-end="18" vertical-scroll-proportion="0.045180723" vertical-offset="0" max-vertical-offset="332">
           <folding />
         </state>
       </provider>
