@@ -1,42 +1,27 @@
-var express = require("express")
+var express = require('express');
 var app = express();
+var bodyParser = require('body-parser');
 
-/* app.use(function (req,res,next){
-    console.log("Time:", Date.now());
+function logRequest(req, res, next) {
+    console.log('incoming request logged at ' + new Date());
     next();
-});
-*/
+}
 
-function logRequest (req,res,next){
-    console.log("Time:", Date.now());
-    next();
+module.exports = function(stockRepository) {
+    app.use(logRequest);
+    app.use(bodyParser.json());
+
+    app.get('/', function (req, res) {
+        res.send('Hello World!');
+    });
+
+    var routes = require('./routes')(stockRepository);
+    app.get('/stock', routes.findAll);
+    app.get('/stock/:isbn', routes.getCount);
+    app.post('/stock', routes.stockUp);
+
+    app.use(routes.stockUp);
+    app.use(routes.serverError);
+
+    return app;
 };
-
-function serverError(err, req, res, next){
-    console.error(err.stack);
-    res.status(500).send("server error");
-};
-
-function clientError(err, req, res, next){
-    console.error(err.stack);
-    res.status(404).send("not found");
-};
-
-
-app.get('/',logRequest, function(req, res){
-    throw new Error("jakis blad");
-    res.send("Hello world!");
-},serverError, clientError);
-
-
-
-
-
-
-
-var server = app.listen(3000, function () {
-    var host = server.address().address;
-    var port = server.address().port;
-
-    console.log('listening at port:' + 3000);
-});

@@ -1,9 +1,9 @@
-var http = require('http');
+var stockRepository = require('./stockRepository')();
+var app = require('./app')(stockRepository);
 
-var server = http.createServer (function(req, res) {
-    res.end ('hello word');
-});
+var server = app.listen(3000, function () {
+    var host = server.address().address;
+    var port = server.address().port;
 
-server.listen(3000, function(){
-console.log("listening on port": + 3000)
+    console.log('Example app listening at http://%s:%s', host, port);
 });

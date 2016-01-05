@@ -2,14 +2,25 @@
   "name": "nodejsworkshops",
   "version": "1.0.0",
   "description": "",
-  "main": "programmer.js",
+  "main": "app.js",
   "scripts": {
     "start": "node server.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "mocha",
+    "lint": "jshint --exclude=node_modules/** **.js",
+    "watch": "nodemon server.js"
   },
-  "author": "",
+  "author": "agalasyk",
   "license": "ISC",
   "dependencies": {
-    "express": "^4.13.3"
+    "body-parser": "^1.14.2",
+    "express": "^4.13.3",
+    "lodash": "^3.10.1",
+    "mongodb": "^2.1.2"
+  },
+  "devDependencies": {
+    "jshint": "^2.9.1-rc2",
+    "mocha": "^2.3.4",
+    "nodemon": "^1.8.1",
+    "supertest": "^1.1.0"
   }
 }
