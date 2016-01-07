@@ -80,7 +80,7 @@
       <file leaf-file-name="base.js" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/infrastructure/base.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="22" column="28" selection-start="880" selection-end="880" vertical-scroll-proportion="0.7478992" vertical-offset="63" max-vertical-offset="420">
+            <state line="22" column="28" selection-start="880" selection-end="880" vertical-scroll-proportion="0.92436975" vertical-offset="0" max-vertical-offset="420">
               <folding />
             </state>
           </provider>
@@ -562,7 +562,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/infrastructure/base.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="28" selection-start="880" selection-end="880" vertical-scroll-proportion="0.7478992" vertical-offset="63" max-vertical-offset="420">
+        <state line="22" column="28" selection-start="880" selection-end="880" vertical-scroll-proportion="0.92436975" vertical-offset="0" max-vertical-offset="420">
           <folding />
         </state>
       </provider>
